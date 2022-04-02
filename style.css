@@ -1,0 +1,72 @@
+body{
+    margin: 0;
+    background-image: url("assets/background.png");
+    font-family: 'Courier New', Courier, monospace;
+    text-align: justify;
+}
+
+.title{
+    font-family: 'Goldman', cursive;
+}
+
+.colored{
+    color: #ff0099;
+}
+
+nav{
+    box-sizing: border-box;
+    width: 100%;
+    height: 50px;
+    background: #333333;
+    position: absolute;
+    top: 0;
+    padding: 0 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+}
+
+#links{
+    width: 350px;
+    display: flex;
+    justify-content: space-between;
+}
+
+main{
+    margin: 150px 10%;
+}
+
+#introduction{
+    font-size: 16px;
+}
+
+#name{
+    font-size: 50px;
+}
+
+#position{
+    font-size: 25px;
+}
+
+#separator{
+    text-align: center;
+    font-weight: bold;
+    margin: 60px 0 50px;
+}
+
+#wikititle{
+    text-align: center;
+    font-size: 35px;
+    margin-bottom: 50px;
+}
+
+dt{
+    font-size: 25px;
+    margin: 25px 0 10px;
+}
+
+dd{
+    font-size: 14px;
+    margin: 0;
+}
